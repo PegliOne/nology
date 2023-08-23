@@ -1,0 +1,21 @@
+p {
+  margin-left: 32px;
+  font-size: 20px;
+}
+
+h1 + section > p {
+  font-style: italic;
+}
+
+h1 + section > p ~ p {
+  color: gray;
+  font-style: normal;
+}
+
+h2 + section > p {
+  text-decoration: underline;
+}
+
+h3 + section > p ~ p {
+  color: blue;
+}
