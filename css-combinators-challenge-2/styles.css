@@ -3,19 +3,19 @@ p {
   font-size: 20px;
 }
 
-h1 + section > p {
+h1 + section p {
   font-style: italic;
 }
 
-h1 + section > p ~ p {
+h1 + section p ~ p {
   color: gray;
   font-style: normal;
 }
 
-h2 + section > p {
+h2 + section p {
   text-decoration: underline;
 }
 
-h3 + section > p ~ p {
+h3 + section p ~ p {
   color: blue;
 }
