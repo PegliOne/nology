@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  width: 900px;
+  height: 300px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+#blueCard {
+  background-color: rgb(126, 186, 189);
+}
+
+#orangeCard {
+  background-color: darkorange;
+}
+
+#pinkCard {
+  background-color: hotpink;
+}
