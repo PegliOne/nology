@@ -1,0 +1,16 @@
+section {
+  background-color: rgb(166, 239, 166);
+  padding: 20px 0;
+  border: 3px solid darkorange;
+}
+
+div {
+  background-color: rgb(220, 139, 180);
+  border: 1px solid darkorange;
+  margin-left: 1px;
+  padding: 16px 30px;
+}
+
+p {
+  padding-left: 20px;
+}
