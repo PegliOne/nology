@@ -1,33 +1,43 @@
 body {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 section {
   display: flex;
-  width: 900px;
-  height: 300px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 40px;
 }
 
 div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 33%;
-  height: 100%;
-  flex-grow: 1;
+  width: 300px;
+  height: 300px;
 }
 
-#blueCard {
+.blue-card {
   background-color: rgb(126, 186, 189);
 }
 
-#orangeCard {
+.orange-card {
   background-color: darkorange;
 }
 
-#pinkCard {
+.pink-card {
   background-color: hotpink;
+}
+
+.red-card {
+  background-color: darkred;
+}
+
+.green-card {
+  background-color: lightgreen;
 }
