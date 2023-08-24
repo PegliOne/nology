@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 28px;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+#reversedSection {
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+#reversedColumnSection {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  font-size: 20px;
+}
+
+#lightBlueCard {
+  background-color: lightblue;
+}
+
+#redCard {
+  background-color: rgb(206, 138, 138);
+}
+
+#greenCard {
+  background-color: lightgreen;
+}
+
+#orangeCard {
+  background-color: rgba(237, 130, 0, 0.772);
+}
+
+#pinkCard {
+  background-color: pink;
+}
+
+#greyCard {
+  background-color: lightgrey;
+}
+
+#veryLightBlueCard {
+  background-color: rgb(226, 248, 255);
+}
+
+#blueCard {
+  background-color: skyblue;
+}
