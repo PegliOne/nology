@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 240px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+section div {
+  flex-grow: 1;
+}
+section div#first {
+  background-color: black;
+}
+section div#second {
+  background-color: red;
+}
+section div#third {
+  background-color: gold;
+}
+
+@media only screen and (min-width: 601px) {
+  section {
+    flex-direction: row;
+  }
+  section #second {
+    order: 1;
+  }
+}
+@media only screen and (min-width: 901px) {
+  section div#first {
+    background-color: green;
+  }
+  section div#second {
+    background-color: white;
+  }
+  section div#third {
+    background-color: orange;
+  }
+}
