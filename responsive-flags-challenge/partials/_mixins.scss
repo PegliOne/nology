@@ -1,0 +1,13 @@
+@mixin flag-colors($first: black, $second: red, $third: gold) {
+  &#first {
+    background-color: $first;
+  }
+  
+  &#second {
+    background-color: $second;
+  }
+  
+  &#third {
+    background-color: $third;
+  }
+}
