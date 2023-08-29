@@ -21,7 +21,7 @@ switch (day % 7) {
   case 6:
     console.log("Today is Saturday");
     break;   
-  case 7:
+  case 0:
     console.log("Today is Sunday");
     break;  
   default:
