@@ -1,26 +1,26 @@
 // Challenge: Calculating Moon Orbits
 
-function calculateMoonOrbits(amountOfEarthDays) {
-  return amountOfEarthDays / 27;
+function moonOrbits(amountOfEarthDays) {
+  return amountOfEarthDays / 27.3;
 }
 
 // Challenge: Working with Circles
 
-function calculateAreaOfCircle(radius) {
+function circleArea(radius) {
   return (radius ** 2 * Math.PI).toFixed(2);
 }
 
-function calculateAreaOfCircle(radius) {
+function circlePerimeter(radius) {
   return (radius * 2 * Math.PI).toFixed(2);
 }
 
 // Challenge: Years to Days & Seconds
 
-function calculateAgeInDays(ageInYears) {
+function ageInDays(ageInYears) {
   return ageInYears * 365;
 }
 
-function calculateAgeInSeconds(ageInYears) {
+function ageInSeconds(ageInYears) {
   return ageInYears * 365 * 24 * 60 * 60;
 }
 
@@ -32,7 +32,7 @@ function calculateRemainder(num1, num2) {
 
 // Challenge: Basketball Points
 
-function calculateRemainder(amountOfTwoPointers, amountOfThreePointers) {
+function remainder(amountOfTwoPointers, amountOfThreePointers) {
   return amountOfTwoPointers * 2 + amountOfThreePointers * 3;
 }
 
