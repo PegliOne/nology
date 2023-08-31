@@ -4,7 +4,7 @@ const hobbies = ["Swimming", "Playing Clarinet", "Video Games"];
 
 console.log(hobbies[0]);
 
-const firstHobby = hobbies.pop();
+const firstHobby = hobbies.shift();
 
 const arrLength = hobbies.length;
 
