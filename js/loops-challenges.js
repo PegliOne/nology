@@ -2,24 +2,24 @@
 
 const number = 100;
 
-function addNumbers(n) {
+function sum(n) {
   let total = 0;
 
-  for (let i = 1; i < n; i++) {
+  for (let i = 1; i <= n; i++) {
     total += i;
   }
 
   console.log(total);
 }
 
-addNumbers(number);
+sum(number);
 
-function addNumbersWithoutLoop(n) {
+function sumWithoutLoop(n) {
   const total = (n * (n + 1)) / 2;
   console.log(total);
 }
 
-addNumbersWithoutLoop(number);
+sumWithoutLoop(number);
 
 // Challenge: Write a shopping list
 
@@ -50,7 +50,7 @@ function capitaliseOddLettersAndIncrementEvenLetters(string) {
   const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
   for (let i = 0; i < string.length; i++) {
-    const nextLetterIndex = (alphabet.indexOf(string[i]) + 1) % 26;
+    const nextLetterIndex = (alphabet.indexOf(string[i].toLowerCase()) + 1) % 26;
     const newLetter =
       i % 2 === 0 ? alphabet[nextLetterIndex] : string[i].toUpperCase();
     newString += newLetter;
@@ -67,8 +67,8 @@ function removeSomeVowels(string) {
   let newString = "";
 
   for (let i = 0; i < string.length; i++) {
-    const isVowel = ["a", "e", "i", "o", "u"].includes(string[i]);
-    const isProceededBySpecialLetter = ["l", "m", "r"].includes(string[i + 1]);
+    const isVowel = ["a", "e", "i", "o", "u"].includes(string[i].toLowerCase());
+    const isProceededBySpecialLetter = ["l", "m", "r"].includes(string[i + 1].toLowerCase());
 
     if (!isVowel || isProceededBySpecialLetter) {
       newString += string[i];
