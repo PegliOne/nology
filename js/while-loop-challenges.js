@@ -14,14 +14,14 @@ console.log(randomNumbers);
 // Challenge: generateNumbers function
 
 function generateNumbers(n, r, isUnique) {
-  if (isUnique && n > r + 1) {
+  if (isUnique && n > r) {
     return "Invalid input";
   }
 
   let randomNumbers = [];
 
   while (randomNumbers.length < n) {
-    const randomNumber = Math.floor(Math.random() * (r + 1));
+    const randomNumber = Math.floor(Math.random() * r);
     if (!randomNumbers.includes(randomNumber) || !isUnique) {
       randomNumbers.push(randomNumber);
     }
