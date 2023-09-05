@@ -7,7 +7,7 @@ const alterSentence = (sentence, callback) => {
 };
 
 const capitalise = (word) => {
-  return word.charAt(0).toUpperCase() + word.slice(1);
+  return word.charAt(0).toUpperCase() + word.substring(1).toLowerCase();
 };
 
 const reverse = (word) => {
