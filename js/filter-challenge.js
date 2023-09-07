@@ -11,6 +11,6 @@ const myFilter = (array, func) => {
 };
 
 const numbers = [1, 2, 3, 4];
-const isEven = (number) => number % 2 === 0;
+const isMultipleOfThree = (number) => number % 3 === 0;
 
-console.log(myFilter(numbers, isEven));
+console.log(myFilter(numbers, isMultipleOfThree));
