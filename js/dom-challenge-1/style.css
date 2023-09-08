@@ -1,7 +1,16 @@
-.can-enter {
+button .can-enter {
   background-color: green;
 }
-
-.cannot-enter {
+button .cannot-enter {
   background-color: red;
+}
+
+svg {
+  color: orange;
+}
+svg.can-enter {
+  color: green;
+}
+svg.cannot-enter {
+  color: red;
 }

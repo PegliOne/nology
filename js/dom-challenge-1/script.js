@@ -1,6 +1,6 @@
 // DOM Selectors
 
-const beerImage = document.querySelector("img");
+const beerImage = document.querySelector("svg");
 const form = document.querySelector("form");
 const ageInput = document.querySelector("#age");
 const countryInput = document.querySelector("#country");
@@ -35,11 +35,15 @@ const renderEntryState = (person) => {
   if (message === "Come in") {
     submitButton.classList.remove("cannot-enter");
     submitButton.classList.add("can-enter");
-    beerImage.setAttribute("src", "./assets/green_beer.svg");
+    // beerImage.setAttribute("src", "./assets/green_beer.svg");
+    beerImage.classList.remove("cannot-enter");
+    beerImage.classList.add("can-enter");
   } else {
     submitButton.classList.remove("can-enter");
     submitButton.classList.add("cannot-enter");
-    beerImage.setAttribute("src", "./assets/red_beer.svg");
+    // beerImage.setAttribute("src", "./assets/red_beer.svg");
+    beerImage.classList.remove("can-enter");
+    beerImage.classList.add("cannot-enter");
   }
   messageDiv.textContent = message;
 };
