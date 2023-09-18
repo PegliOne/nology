@@ -1,0 +1,25 @@
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 24px 0 36px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  padding: 28px 32px;
+  margin: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 28px;
+  box-shadow: 0 0 8px darkgrey;
+}
+
+.short-description {
+  margin-top: 24px;    
+}
