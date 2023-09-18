@@ -1,4 +1,4 @@
-import './App.css';
+import './global.scss';
 import AlbumContainer from './container/AlbumContainer/AlbumContainer';
 
 function App() {
