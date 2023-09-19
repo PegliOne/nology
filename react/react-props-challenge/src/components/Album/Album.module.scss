@@ -1,0 +1,30 @@
+.album {
+  width: 20%;
+  height: 180px;
+  margin: 12px;
+  color: transparent;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &:hover {
+    color: black;
+    background: white !important;
+    cursor: pointer;
+
+    .banner {
+      opacity: 0;
+    }
+  }
+
+  .banner {
+    position: absolute;
+    width: 340px;
+    margin-top: 48px;
+    margin-left: -20px;
+    font-size: 36px;
+    transform: rotate(18deg);
+    color: darkred;
+    background-color: white;
+  }
+}
