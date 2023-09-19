@@ -1,0 +1,50 @@
+[
+  {
+    "title": "PCD",
+    "band": "Pussycat Dolls",
+    "rating": 3,
+    "imageUrl": "../../../assets/the-pussycat-dolls.png"
+  },
+  {
+    "title": "Doll Domination",
+    "band": "Pussycat Dolls",
+    "rating": 2,
+    "imageUrl": "../../../assets/doll-domination.jpg"
+  },
+  {
+    "title": "Three Cheers for Sweet Revenge",
+    "band": "My Chemical Romance",
+    "rating": 4,
+    "imageUrl": "../../../assets/three-cheers-for-sweet-revenge.png"
+  },
+  {
+    "title": "The Black Parade",
+    "band": "My Chemical Romance",
+    "rating": 5,
+    "imageUrl": "../../../assets/black-parade.jpg"
+  },
+  {
+    "title": "The Last Stand",
+    "band": "Sabaton",
+    "rating": 4,
+    "imageUrl": "../../../assets/the-last-stand.jpg"
+  },
+  {
+    "title": "Awake",
+    "band": "Skillet",
+    "rating": 3,
+    "imageUrl": "../../../assets/awake.jpeg"
+  },
+  {
+    "title": "Arrival",
+    "band": "ABBA",
+    "rating": 5,
+    "imageUrl": "../../../assets/arrival.png"
+  },
+  {
+    "title": "Waterloo",
+    "band": "ABBA",
+    "rating": 3,
+    "imageUrl": "../../../assets/waterloo.jpeg"
+  }
+]
