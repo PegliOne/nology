@@ -4,7 +4,7 @@ const PlanetCard = ({
   name,
   imageUrl,
   distanceFromSun,
-  diameterInKm,
+  diameter,
   numberOfMoons,
   lengthOfYear,
 }) => {
@@ -20,7 +20,7 @@ const PlanetCard = ({
       <h2>{name}</h2>
       <p>
         <strong>Diameter: </strong>
-        {diameterInKm}
+        {diameter} km
       </p>
       <p>
         <strong>Distance From Sun: </strong>

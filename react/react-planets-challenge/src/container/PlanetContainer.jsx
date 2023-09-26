@@ -1,11 +1,14 @@
+import _ from "underscore";
 import PlanetCard from "../components/PlanetCard";
 import planets from "../data/planets.json";
 import styles from "./PlanetContainer.module.scss";
 
 const PlanetContainer = () => {
+  const planetsBySize = _.sortBy(planets, "diameterInKm");
+
   return (
     <main className={styles.planets}>
-      {planets.map((planet) => (
+      {planetsBySize.map((planet) => (
         <PlanetCard
           key={planet.planetName}
           name={planet.planetName}
